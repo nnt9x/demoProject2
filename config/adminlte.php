@@ -308,10 +308,14 @@
             ],
 
             [
-                'text' => 'Trang chủ',
-                'url' => 'admin/pages',
+                'text' => 'Thống kê',
+                'url' => 'admin/home',
                 'icon' => 'fas fa-home text-success',
-                'label_color' => 'success',
+            ],
+            [
+                'text' => 'Quản lý sản phẩm',
+                'url' => 'admin/products',
+                'icon' => 'fas fa-clone text-secondary',
             ],
             [
                 'text' => 'Quản lý đơn hàng',
@@ -320,12 +324,12 @@
             ],
             [
                 'text' => 'Thông tin cá nhân',
-                'url' => 'admin/settings',
+                'url' => 'admin/abouts',
                 'icon' => 'fas fa-fw fa-user text-danger',
             ],
             [
                 'text' => 'Đổi mật khẩu',
-                'url' => 'admin/settings',
+                'url' => 'admin/changepw',
                 'icon' => 'fas fa-key',
             ],
 
