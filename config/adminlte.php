@@ -318,6 +318,11 @@
                 'icon' => 'fas fa-clone text-secondary',
             ],
             [
+                'text' => 'Quản lý hãng',
+                'url' => 'admin/brands',
+                'icon' => 'fas fa-clone text-success',
+            ],
+            [
                 'text' => 'Quản lý đơn hàng',
                 'url' => 'admin/orders',
                 'icon' => 'fas fa-cart-plus text-primary',

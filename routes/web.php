@@ -1,9 +1,10 @@
 <?php
 
-    use App\Http\Controllers\admin\AdminController;
-    use App\Http\Controllers\admin\ProductController;
-    use App\Http\Controllers\web\WebController;
-    use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\admin\AdminController;
+use App\Http\Controllers\admin\BrandController;
+use App\Http\Controllers\admin\ProductController;
+use App\Http\Controllers\web\WebController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,7 +47,8 @@ Route::put('/admin/products/{id}',[ProductController::class,'updateProductById']
 Route::delete('/admin/products/{id}',[ProductController::class,'deleteProductById']);
 
 
-
+// Xem toan bo hang
+Route::get('/admin/brands',[BrandController::class,'viewAllBrands']);
 
 
 
